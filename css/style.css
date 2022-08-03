@@ -1,7 +1,12 @@
 body{
-  background-color: rgb(230, 225, 225);
+  background-color: #f7f7f7;
   height: 2000px;
 }
+
+a{
+  text-decoration: none;
+}
+
 .topo{
   width: 1350px;
   height: 54px;
@@ -12,6 +17,20 @@ body{
   position: fixed;
   top: 0;
   left: 0;
+}
+
+#status1{
+  position: absolute;
+  background-color: red;
+}
+
+.foto-perfil-status{
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 
 .logo{
@@ -59,6 +78,10 @@ input{
   flex-direction: column;
 }
 
+.post{
+  margin-bottom: 60px;
+}
+
 .status{
   margin-bottom: 20px;
   display: flex;
@@ -67,6 +90,8 @@ input{
   height: 118px;
   align-items: center;
   justify-content: space-evenly;
+  border: 0.5px solid rgb(216, 215, 215);
+  border-radius: 3px;
 }
 
 .statu{
@@ -74,14 +99,19 @@ input{
   background-color: red;
   width: 56px;
   height: 56px;
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 
 .side-bar{
   width: 293px;
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   margin-left: 28px;
+  position: fixed;
+  top: 85px;
+  right: 50px;
 }
 
 #perfil-pessoal-side{
@@ -104,5 +134,154 @@ input{
 
 #informacao-pessoal h6{
   font-weight: bold;
-  font-family: inter;
+  font-family: inter, sans-serif;
+}
+
+#informacao-pessoal p{
+  font-family: inter, sans-serif;
+  color: rgb(131, 125, 125);
+}
+
+.opcao-seguidor{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: inter, sans-serif;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.container-seguir{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container-seguir img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#sugestao-para-voce{
+  color: rgba(0,0,0,0.9);
+}
+
+#ver-tudo{
+  color: rgba(0,0,0,0.9);
+  font-weight: 700;
+}
+
+#informacao-seguidor{
+  display: flex;
+}
+
+#nome-seguidor{
+  font-size: 11px;
+  font-family: inter, sans-serif;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+#se-seguidor{
+  font-size: 11px;
+  font-family: inter, sans-serif;
+}
+
+#seguir{
+  font-size: 11px;
+  font-family: inter, sans-serif;
+  color: #139ef2;
+  font-weight: 700;
+}
+
+#informacoes-instagram{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  font-size: 11px;
+  font-family: inter, sans-serif;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#informacoes-instagram p{
+  margin-bottom: 2px;
+}
+
+#direitos-instagram{
+  font-size: 11px;
+  font-family: inter, sans-serif;
+  margin-left: 10px;
+}
+
+.user-post{
+  width: 612px;
+  height: 68.5px;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+}
+
+#foto-perfil-user-post{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+#nome-user{
+  font-family: inter, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.interacoes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+}
+
+.post img{
+  width: 612px;
+ height: 612px;
+}
+
+.interacao-post{
+  width: 612px;
+  height: 68.5px;
+}
+
+#imagem-perfil-curtida{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.curtidas{
+  display: flex;
+  align-items: center;
+}
+
+.interacoes ion-icon{
+  margin-left: 10px;
+}
+
+.interacoes #ultimo-icon{
+  margin-right: 10px;
+}
+
+.texto-curtida{
+  margin-left: 10px;
+  font-family: inter, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
 }

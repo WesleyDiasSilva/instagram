@@ -1,0 +1,48 @@
+body{
+  background-color: rgb(230, 225, 225);
+  height: 2000px;
+}
+.topo{
+  width: 1350px;
+  height: 54px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo{
+  display: flex;
+}
+
+.pesquisa{
+  display: flex;
+  background-color: green;
+  width: 215px;
+  height: 28px;
+}
+
+#logo-instagram{
+  margin-right: 10px;
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+input{
+  width: 100%;
+  text-align: center;
+}
+
+.menu-superior{
+  height: 22px;
+  width: 176px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icone{
+  width: 22px;
+  height: 22px;
+}

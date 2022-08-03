@@ -5,6 +5,7 @@ body{
 
 a{
   text-decoration: none;
+  color: black;
 }
 
 .topo{
@@ -135,6 +136,7 @@ input{
 #informacao-pessoal h6{
   font-weight: bold;
   font-family: inter, sans-serif;
+  margin-bottom: 5px;
 }
 
 #informacao-pessoal p{

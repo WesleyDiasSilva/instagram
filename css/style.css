@@ -75,6 +75,11 @@ input{
   background-color: rgb(247, 246, 246);
 }
 
+input:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
 .menu-superior{
   height: 22px;
   width: 176px;

@@ -434,6 +434,7 @@ input:focus{
     align-items: center;
     padding: 0 10px;
     box-sizing: border-box;
+    width: 100%;
   }
 
   .pagina{
@@ -492,5 +493,15 @@ input:focus{
     position: fixed;
     bottom: 0px;
   }
+
+  .status-modificado{
+    width: 100%;
+  }
+
+  .posts{
+    width: 614px;
+  }
+
+  
 
 }
